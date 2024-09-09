@@ -18,7 +18,7 @@ st.title("박시언 해석하는 PDF")
 st.write("---")
 
 # 파일 업로드 기능 구현
-uploaded_file = st.file_uploader("Choose a file")  # 파일 업로드 위젯 생성
+uploaded_file = st.file_uploader("파일 선택")  # 파일 업로드 위젯 생성
 st.write("---")
 
 # PDF 파일을 처리하는 함수 (PDF를 임시 폴더에 저장 후 페이지별로 로드)
