@@ -14,7 +14,7 @@ import streamlit as st
 import tempfile
 
 # Streamlit 웹페이지 제목 설정
-st.title("박시언 해석하는 PDF")
+st.title("박시언이 해석하는 PDF")
 st.write("---")
 
 # 파일 업로드 기능 구현
@@ -61,7 +61,7 @@ if uploaded_file is not None:
         )
 
         # 질문을 받을 수 있는 섹션 생성
-        st.header("박시언BOT 한테 질문하시오")
+        st.header("BOT 한테 질문하시오")
         question = st.text_input('질문을 입력하세요')  # 질문 입력 필드
 
         # 질문하기 버튼 클릭 시 동작
