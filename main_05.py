@@ -61,7 +61,7 @@ if uploaded_file is not None:
         )
 
         # 질문을 받을 수 있는 섹션 생성
-        st.header("PDF에게 질문해보세요!!")
+        st.header("박시언BOT 한테 질문하시오")
         question = st.text_input('질문을 입력하세요')  # 질문 입력 필드
 
         # 질문하기 버튼 클릭 시 동작
